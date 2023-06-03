@@ -1,13 +1,12 @@
 
-.nav1 {
+.header_1 {
     background-color: #FF3C42;
     height: 50px;
     width: 100%;
-    margin:0 auto;   
+    margin:0;   
 }
-
-.nav1 p{
-    margin-top: 10px;
+.header_1  p{
+    margin:0;
 }
 
 .networks div{
@@ -19,3 +18,31 @@
     width: 100%;
     align-content: right;
 }
+
+.steps{
+background-color: #FF3C42;
+padding:0;
+width: 100%;
+border: 0;
+}
+
+.steps h2{
+    color:white;
+}
+.steps p{
+    color:white;
+}
+
+.item p{
+    display: inline-block;
+  }
+
+.steps_left {
+    text-align: left;
+    width: 40%;
+  }
+  
+  .steps_right {
+    text-align: right;
+    width: 40%;
+  }
