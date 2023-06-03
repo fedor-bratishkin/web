@@ -1,0 +1,21 @@
+
+.nav1 {
+    background-color: #FF3C42;
+    height: 50px;
+    width: 100%;
+    margin:0 auto;   
+}
+
+.nav1 p{
+    margin-top: 10px;
+}
+
+.networks div{
+    background-color: #221617;
+    height: 30px;
+}
+.menu div{
+    height: 30px;
+    width: 100%;
+    align-content: right;
+}
