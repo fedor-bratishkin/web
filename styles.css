@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    width: 100%;
+}
 
 .header_1 {
     background-color: #FF3C42;
@@ -6,18 +10,42 @@
     margin:0;   
 }
 .header_1  p{
-    margin:0;
+    margin:0px;
+    padding: 10px;
 }
 
-.networks div{
-    background-color: #221617;
-    height: 30px;
-}
-.menu div{
-    height: 30px;
+.header_2 {
+    background-color: #ffffff;
+    height: 100px;
     width: 100%;
-    align-content: right;
+    margin:0;   
 }
+
+.logo img{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 15px;
+}
+
+.welcome {
+    background-image: url(img/welcome.jpg);
+    background-size: 100%;
+    width: 100%;
+    height:500px;
+}
+
+
+
+.menu {
+    position: absolute;
+	top: 50px;
+	right: 100px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    float: left;
+    margin: 0 40px; /*расстояние между пунктами по ширине*/
 
 .steps{
 background-color: #FF3C42;
