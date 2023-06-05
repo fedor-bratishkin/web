@@ -9,21 +9,21 @@ body{
     }
 
 
-.header_top {
+.header_contact {
     background-color: #FF3C42;
     height: 50px;
     width: 100%;
     margin:0; 
       
 }
-.header_top  p{
+.header_contact  p{
     margin:0px;
     padding: 10px;
     color:#ffffff;
     font-size: 14px;
 }
 
-.header_bottom {
+.header_menu {
     background-color: #ffffff;
     color: #090909;
     padding: 2px 100px;
@@ -39,7 +39,8 @@ body{
 .logo img{
     padding-top: 25px;
     padding-bottom: 25px;
-    
+    width:176px; 
+    height:50px;
 }
 .nav {
     display: flex;
@@ -129,6 +130,12 @@ border: 0;
 .item p{
     display: inline-block;
   }
+  .logo-footer img{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width:176px; 
+    height:50px;
+}
 
   .footer-menu {
     position: absolute;
