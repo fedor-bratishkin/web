@@ -9,21 +9,21 @@ body{
     }
 
 
-.header_1 {
+.header_top {
     background-color: #FF3C42;
     height: 50px;
     width: 100%;
     margin:0; 
       
 }
-.header_1  p{
+.header_top  p{
     margin:0px;
     padding: 10px;
     color:#ffffff;
     font-size: 14px;
 }
 
-.header_2 {
+.header_bottom {
     background-color: #ffffff;
     color: #090909;
     padding: 2px 100px;
