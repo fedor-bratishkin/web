@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insta.Trip</title>
-    <link href="styles.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon/favicon-32x32.png" type="image/x-icon">
 </head>
 
@@ -17,22 +17,22 @@
                 <a href="tel:+12345678910">+123(456)78910</a>
             </div>
             <div class="header__language language">
-                <img width="10" class="language__flag" src="img/flag-uk.png" alt="Flag UK">
+                <img width="20" class="language__flag" src="img/flag-uk.png" alt="Flag UK">
                 <p class="language_name">EN</p>
-                <svg width="10" class="language__triangle" viewBox="0 0 8 5" xmlns="http:www.w3.org/2000/svg"
-                    data-component-triangle="icon">
-                    <path d="M4 5l4-5H0z"></path>
-                </svg>
+                <img width="20" class="language__triangle" src="img/icon-triangle.svg" alt="triangle" href="#">
             </div>
             <div class="social-network">
-                <img width="10" class="social-network_item" src="img/icon-facebook.svg" alt="Facebook icon">
-                <img width="10" class="social-network_item" src="img/icon-instagram.svg" alt="Instagram icon">
-                <img width="10" class="social-network_item" src="img/icon-youtube.svg" alt="YouTube icon">
+                <img width="20" class="social-network_item" src="img/icon-facebook.svg" alt="Facebook icon"
+                    href="https://www.facebook.com/">
+                <img width="20" class="social-network_item" src="img/icon-instagram.svg" alt="Instagram icon"
+                    href="https://www.instagram.com/">
+                <img width="20" class="social-network_item" src="img/icon-youtube.svg" alt="YouTube icon"
+                    href="https://www.youtube.com/">
             </div>
         </div>
         <div class="header__logo-menu">
             <div class="header__logo">
-                <img width="50" src="img/logo-insta-trip.png" alt="Logo Insta.Trip">
+                <img width="170" src="img/logo-insta-trip.png" alt="Logo Insta.Trip">
             </div>
             <nav class="header__menu">
                 <a href="#aboutus" class="header__menu-item">About us</a>
@@ -41,96 +41,131 @@
                 <a href="#contact" class="header__menu-item">Contact</a>
             </nav>
         </div>
-
-
-        <section class="header_contact">
-            <p>+38 095 344 44 44</p>
-            <!--div class="networks">
-               <img src = "img/facebook.avif" alt = "facebook">
-               <img src = "img/facebook.avif"  alt = "instagram">
-               <img src = "img/facebook.avif"  alt = "youtube">
-            </div-->
-        </section>
-        <section class="header_menu">
-            <div class="logo">
-                <img src="img/logo-insta-trip.png" alt="Logo Insta.Trip">
-            </div>
-            <nav class="nav">
-                <ul class="main-menu">
-                    <li class="menu-itemm"><a href="#aboutus">About us</a></li>
-                    <li class="menu-itemm"><a href="#tours">Tours</a></li>
-                    <li class="menu-itemm"><a href="#feedback">Testimonials</a></li>
-                    <li class="menu-itemm"><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </section>
     </header>
     <main>
-        <section class="welcome">
-            <div class="wrapper">
-                <h1>See the Beauty of the Whole World.</h1>
-                <p>Learn About Our Tours</p>
+        <section class="cover">
+            <div class="cover__name">
+                <h1 class="cover__title">See the Beauty of the Whole World.</h1>
+                <p class="cover__sub-title">Learn About Our Tours</p>
             </div>
         </section>
-        <div class="wrapper">
-            <h2>Only the Most Beautiful Places.</h2>
-            <p>The world is so big and is waiting for you to see it! During our tours, you will visit the most beautiful
+        <section class="popular-trip">
+            <h2 class="popular-trip__title">Only the Most Beautiful Places.</h2>
+            <p class="popular-trip__text">The world is so big and is waiting for you to see it! During our tours, you
+                will visit the most beautiful
                 places and will be able to take photos and videos that will blow your Instagram! Each of our tours is
                 carefully designed. In addition, a professional photographer travels with each group.</p>
-            <p>Gallery</p>
-        </div>
+            <div class="popular-trip__carousel carousel">
+                <button class="carousel__btn_left"><img src="img/icon-arrow-left.svg"></button>
+                <div class="carousel__slide-container">
+                    <article class="carousel_slide">
+                        <img width="300" src="img/chicago.jpeg" alt="Museum of Science and Industry, Chicago">
+                        <h3>Freedom-loving Europe</h3>
+                        <p>from $350</p>
+                    </article>
+                    <article class="carousel_slide">
+                        <img width="300" src="img/venice.jpeg" alt="Grand Canal, Venice">
+                        <h3>Freedom-loving Europe</h3>
+                        <p>from $350</p>
+                    </article>
+                    <article class="carousel_slide">
+                        <img width="300" src="img/sydney.jpeg" alt="Sydney Opera House">
+                        <h3>Freedom-loving Europe</h3>
+                        <p>from $350</p>
+                    </article>
+                    <article class="carousel_slide">
+                        <img width="300" src="img/disneyland.jpeg" alt="Cinderella Castle, DisneyLand">
+                        <h3>Freedom-loving Europe</h3>
+                        <p>from $350</p>
+                    </article>
+
+                </div>
+                <button class="carousel__btn_right"><img src="img/icon-arrow-right.svg"></button>
+            </div>
         </section>
-        <section id="aboutus">
-            <div class="wrapper">
-                <h2>The Best Instagrammable Places and Guided Tours.</h2>
-                <p>There are thousands of stunning places in the world, and you can visit all of them! Many of them have
+        <section id="aboutus" class="aboutus">
+            <div class="aboutus__info">
+                <h2 class="aboutus__title">The Best Instagrammable Places and Guided Tours.</h2>
+                <p class="aboutus__text">There are thousands of stunning places in the world, and you can visit all of
+                    them! Many of them have
                     already turned into real places of pilgrimage for fans of striking Instagram photos. Don't miss your
                     chance to visit a cool place and have amazing photos on your Instagram!</p>
-                <p>Our company offers tours to the most picturesque places on our planet. Visit the coolest countries,
+                <p class="aboutus__text">Our company offers tours to the most picturesque places on our planet. Visit
+                    the coolest countries,
                     take hundreds or even thousands of photos for your Instagram! We will be happy to help you with
                     this.</p>
-                <h3>50+ tours</h3>
-                <p>Our company regularly organizes tours. You can see landmarks all over the world. Just choose the
-                    countries you like the most.</p>
-                <h3>Experienced guides</h3>
-                <p>The specialists of our company will organize an unforgettable trip and tell you a lot of interesting
-                    things!</p>
+                <div class="aboutus__experience">
+                    <img width="40" src="img/icon-tours.svg" alt="world">
+                    <h3>50+ tours</h3>
+                    <p>Our company regularly organizes tours. You can see landmarks all over the world. Just choose the
+                        countries you like the most.</p>
+                </div>
+                <div class="aboutus__experience">
+                    <img width="40" src="img/icon-guides.svg" alt="Guides">
+                    <h3>Experienced guides</h3>
+                    <p>The specialists of our company will organize an unforgettable trip and tell you a lot of
+                        interesting things!</p>
+                </div>
+            </div>
+            <div class="aboutus__image">
                 <img src="img/aboutus.png" alt="Сouple travelers">
             </div>
         </section>
-        <section>
-            <span class="inlineBlock parent">
-                <span class="inlineBlock steps_left">
-                    <div class="blk">
-                        <h2 class="steps_left">We Will Organize Your Best Travel, Trust Us.</h2>
-                        <p>By contacting our company, you will get the most out of your trip. Our company has vast
-                            experience in organizing group trips. We provide a full package of services for tourists,
-                            the list includes:
-                            Professional photographers;
-                            Transfers;
-                            Staying in beautiful 4* hotels.
-                            Intersting excursions.
-                            You can familiarize yourself with the detailed program of each tour by contacting us. We
-                            will send you all the details.</p>
-                    </div>
-                </span><span class="inlineBlock steps_right">
-                    <div class="blk">
-                        <h2>1. Contact us</h2>
+        <section class="steps">
+            <div class="steps__title">
+                <h2>We Will Organize Your Best Travel, Trust Us.</h2>
+                <p>By contacting our company, you will get the most out of your trip. Our company has vast
+                    experience in organizing group trips. We provide a full package of services for tourists,
+                    the list includes:</p>
+                <ul>
+                    <li>
+                        <img width="10" src="img/icon-check.svg" alt="Check">
+                        Professional photographers;
+                    </li>
+                    <li>
+                        <img width="10" src="img/icon-check.svg" alt="Check">
+                        Transfers;
+                    </li>
+                    <li>
+                        <img width="10" src="img/icon-check.svg" alt="Check">
+                        Staying in beautiful 4* hotels.
+                    </li>
+                    <li>
+                        <img width="10" src="img/icon-check.svg" alt="Check">
+                        Intersting excursions.
+                    </li>
+                    <p>You can familiarize yourself with the detailed program of each tour by contacting us. We
+                        will send you all the details.</p>
+                </ul>
+            </div>
+            <div class="steps__count">
+                <ul>
+                    <li>
+                        <p>1. Contact us</p>
                         <p>To do this, you can fill out a form on our website or contact us directly by e-mail or phone.
                         </p>
-                        <h2>2. Select a tour</h2>
+                    </li>
+                    <li>
+                        <p>2. Select a tour</p>
                         <p>Yes, we know, the selection of our instagrammable tours make you dizzy. Our managers will be
                             happy to assist you in your decision. Just tell them what you expect from the tour!</p>
-                        <h2>3. Enjoy your journey</h2>
+                    </li>
+                    <li>
+                        <p>3. Enjoy your journey</p>
                         <p>We will do our best to make your tour as interesting, bright and eventful as possible! We
                             will show you the most beautiful places, you will meet nice people and boost your Instagram,
-                            of course!</p>
-                        <p>Remember that each tour is accompanied by professional photographers, so you don't need to
-                            worry about the content!</p>
-                    </div>
-                </span>
-            </span>
+                            of course!
+
+                            Remember that each tour is accompanied by professional photographers, so you don't need to
+                            worry about the content! </p>
+                    </li>
+                </ul>
+            </div>
         </section>
+
+
+
+
         <section>
             <h2>Adventures You'll Definitely Love.</h2>
             <p>Travel is our life and our passion. We do what we love - we give pleasant emotions to our clients. Our
@@ -176,15 +211,23 @@
             <h2>Contact.</h2>
         </section>
     </main>
-    <footer>
-        <nav>
-            <div class="logo-footer">
-                <img src="img/logo-insta-trip.png" alt="Logo Insta.Trip">
+    <footer class="footer">
+        <div class="footer__logo-menu">
+            <div class="footer__logo">
+                <img width="200" src="img/logo-insta-trip.png" alt="Logo Insta.Trip">
             </div>
-        </nav>
+            <nav class="footer__menu">
+                <a href="#aboutus" class="footer__menu-item">About us</a>
+                <a href="#tours" class="footer__menu-item">Tours</a>
+                <a href="#feedback" class="footer__menu-item">Testimonials</a>
+                <a href="#contact" class="footer__menu-item">Contact</a>
+            </nav>
+        </div>
         <hr>
-        <p>© Created by</p>
-        <p>All rights Reserved</p>
+        <div class="footer__rights">
+            <p>© Created by</p>
+            <p>All rights Reserved</p>
+        </div>
     </footer>
 </body>
 
