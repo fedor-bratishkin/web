@@ -1,0 +1,39 @@
+.cover{
+    background-image: url(https://res2.weblium.site/res/5f7b5a6fe2ab710021a74628/5f7cec1a9ba03700213161a7?nowebp);
+    height: 70vh;
+    display: flex;
+    padding: 40px;
+    z-index: -1;
+}
+
+
+.cover__name{
+    background-color: rgb(27, 27, 27);
+    height: 400px;
+    width: 50%;
+    margin: auto;
+    opacity: 0.6;
+    padding: auto;
+    color: white;
+    border-radius: 2% 2% 2% 2%;
+    z-index: 0;
+    
+}
+
+.cover__name h1{
+ font-size: 70px;
+ opacity: 1;
+ z-index: 1;
+ padding: 15px;
+ font-family: 'Roboto', sans-serif;
+ font: weight 700;
+}
+
+.cover__name a{
+    display: inline-block;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 5px;
+}

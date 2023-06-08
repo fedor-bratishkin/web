@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insta.Trip</title>
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon/favicon-32x32.png" type="image/x-icon">
 </head>
 
@@ -45,15 +45,15 @@
     <main>
         <section class="cover">
             <div class="cover__name">
-                <h1 class="cover__title">See the Beauty of the Whole World.</h1>
-                <a href="#tours"> 
+                <h1 class="cover__title">See the Beauty of the Whole World<span class="red-text">.</span></h1>
+                <a href="#tours">
                     <img width="20" src="img/icon-arrow-right-circle-lined.svg" alt="Arrow right">
                     <p>Learn About Our Tours</p>
                 </a>
             </div>
         </section>
         <section class="popular-trip">
-            <h2 class="popular-trip__title">Only the Most Beautiful Places.</h2>
+            <h2 class="popular-trip__title">Only the Most Beautiful Places<span class="red-text">.</span></h2>
             <p class="popular-trip__text">The world is so big and is waiting for you to see it! During our tours, you
                 will visit the most beautiful
                 places and will be able to take photos and videos that will blow your Instagram! Each of our tours is
@@ -88,7 +88,7 @@
         </section>
         <section id="aboutus" class="aboutus">
             <div class="aboutus__info">
-                <h2 class="aboutus__title">The Best Instagrammable Places and Guided Tours.</h2>
+                <h2 class="aboutus__title">The Best <span class="red-text">Instagrammable</span> Places and Guided Tours.</h2>
                 <p class="aboutus__text">There are thousands of stunning places in the world, and you can visit all of
                     them! Many of them have
                     already turned into real places of pilgrimage for fans of striking Instagram photos. Don't miss your
@@ -165,36 +165,63 @@
                 </ul>
             </div>
         </section>
-
-
-
-
-        <section>
-            <h2>Adventures You'll Definitely Love.</h2>
-            <p>Travel is our life and our passion. We do what we love - we give pleasant emotions to our clients. Our
-                experts know exactly how to organize a trip so that it will bring maximum pleasure. Want to see those
-                places you've seen on Instagram with your own eyes and get more followers? Travel with us! We promise
-                you won't be disappointed.</p>
-            <h3>The most beautiful places</h3>
-            <p>You will visit the most popular places on our planet. Enjoy stunning landscapes, touch the history and
-                make brilliant photos!</p>
-            <h3>Professional photographers</h3>
-            <p>During the trip, you will be accompanied by our professional photographers who will take the best photos
-                of you.</p>
-            <h3>Full support</h3>
-            <p>By ordering a tour in our company, you can choose the best outfits for photos because nothing else is
-                required from you! We will fully organize your trip.</p>
+        <section class="why-popular">
+            <div class="why-popular__intro">
+                <h2 class="why_popular__title">Adventures You'll Definitely Love.</h2>
+                <p class="why_popular__text">Travel is our life and our passion. We do what we love - we give pleasant
+                    emotions to our clients. Our experts know exactly how to organize a trip so that it will bring
+                    maximum pleasure. Want to see those places you've seen on Instagram with your own eyes and get more
+                    followers? Travel with us! We promise you won't be disappointed.</p>
+            </div>
+            <div class="why-popular__card card">
+                <article class="card">
+                    <img width="20" src="img/icon-globe.svg" alt="Globe">
+                    <p class="card__title">The most beautiful places</p>
+                    <p class="card__text">You will visit the most popular places on our planet. Enjoy stunning
+                        landscapes, touch the
+                        history and make brilliant photos!</p>
+                </article>
+                <article class="card">
+                    <img width="20" src="img/icon-globe.svg" alt="Globe">
+                    <p class="card__title">Professional photographers</p>
+                    <p class="card__text">During the trip, you will be accompanied by our professional photographers who
+                        will take the best photos of you.</p>
+                </article>
+                <article class="card">
+                    <img width="20" src="img/icon-globe.svg" alt="Globe">
+                    <p class="card__title">Full support</p>
+                    <p class="card__text">By ordering a tour in our company, you can choose the best outfits for photos
+                        because nothing else is required from you! We will fully organize your trip.</p>
+                </article>
+            </div>
         </section>
-        <section>Video</section>
-        <section id="tours">
-            <h2>Visit, Admire, Learn More.</h2>
-            <p>We offer carefully planned tours to the most beautiful and instagrammable places in the world. Our
-                photographers know the best locations and will take fantastic photos for you. Have you seen amazing
-                photos from travel bloggers on their Instagram and want the same? We will take even better photos from
-                even more spectacular places!</p>
-            <p>Gallery</p>
+        <section class="video">
+            <div class="video__buttom-block">
+                <img width="20" src="img/icon-video.svg" alt="Button play">
+                <h2 class="video__title">Explore and Travel</h2>
+            </div>
         </section>
-        <section>
+
+        <section id="tours" class="tours">
+            <div class="tours__intro">
+                <h2 class="tours__title">Visit, Admire, Learn More.</h2>
+                <p class="tours_text">We offer carefully planned tours to the most beautiful and instagrammable places
+                    in the world. Our
+                    photographers know the best locations and will take fantastic photos for you. Have you seen amazing
+                    photos from travel bloggers on their Instagram and want the same? We will take even better photos
+                    from
+                    even more spectacular places!</p>
+            </div>
+            <div class="tours__carousel">
+
+            </div>
+        </section>
+        <section class="photographer">
+            <div class="photographer_carousel carousel">
+                <button class="carousel__btn_left"><img src="img/icon-arrow-left.svg" alt="Arrow left"></button>
+
+                <button class="carousel__btn_right"><img src="img/icon-arrow-right.svg" alt="Arrow right"></button>
+            </div>
             <h2>Alexandro Rossa.</h2>
             <p>Alexandro is a true fan of his craft. He is a photographer with extensive experience in travel
                 photography and a great guide. Even professional geographers can envy his knowledge of world landmarks
