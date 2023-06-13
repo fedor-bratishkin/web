@@ -9,12 +9,18 @@
     display: flex;
 }
 
+.cover__container{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1200px;
+    margin: auto;
+}
+
 .cover__name {
     background-color: rgb(63, 54, 49, 0.75);
     color: white;
     border-radius: 8px;
     padding: 35px;
-
 }
 
 
@@ -69,7 +75,6 @@
         flex-wrap: wrap;
         flex-basis: 50%;
         padding: 40px;
-        
 
     }
 

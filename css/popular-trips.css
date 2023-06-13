@@ -5,6 +5,8 @@
   padding-right: 24px;
   display: flex;
   flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
 
 }
 
@@ -14,9 +16,11 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   line-height: 40.8px;
+  color: rgb(63, 54, 49);
 }
 
 .popular-trip p {
+  display: flex;
   margin-top: 50px;
   max-width: 100%;
   font-size: 16px;
@@ -33,6 +37,8 @@
     padding-bottom: 50px;
     padding-left: 24px;
     padding-right: 24px;
+    justify-content: center;
+    flex-direction: row;
     flex-wrap: nowrap;
   }
 
@@ -40,7 +46,6 @@
     font-size: 38px;
   }
   .popular-trip p {
-    padding-left: 200px;
     margin-top: 0;
   }
 }
