@@ -1,28 +1,31 @@
-
 @import "./global.css";
 @import "./header.css";
 @import "./cover.css";
+@import "./popular-trips.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 
 
-.steps{
-background:linear-gradient(90deg, #ff3c42 0%, #ff573c 100%);
-padding:0;
-width: 100%;
-border: 0;
+.steps {
+    background: linear-gradient(90deg, #ff3c42 0%, #ff573c 100%);
+    padding: 0;
+    width: 100%;
+    border: 0;
 }
 
-.video{
-    background:linear-gradient(90deg, #ff3c42 0%, #ff573c 100%);
+.video {
+    background: linear-gradient(90deg, #ff3c42 0%, #ff573c 100%);
 }
-  .footer-menu {
+
+.footer-menu {
     position: absolute;
-	bottom: 50px;
-	right: 100px;
+    bottom: 50px;
+    right: 100px;
 }
+
 .footer-menu ul li {
     list-style-type: none;
     float: left;
-    margin: 0 40px; /*расстояние между пунктами по ширине*/
+    margin: 0 40px;
+    /*расстояние между пунктами по ширине*/
 }

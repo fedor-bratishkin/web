@@ -1,14 +1,27 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h2, h3, p, a {
+:root {
+    --accent-color: white;
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h2,
+h3,
+p,
+a {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
-.red-text{
+.red-text {
     color: #ff3c42;
 }

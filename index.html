@@ -13,33 +13,39 @@
 <body>
     <header class="header">
         <div class="header__contacts">
-            <div class="header__tel">
-                <a href="tel:+12345678910">+123(456)78910</a>
-            </div>
-            <div class="header__language language">
-                <img width="20" class="language__flag" src="img/flag-uk.png" alt="Flag UK">
-                <p class="language_name">EN</p>
-                <img width="20" class="language__triangle" src="img/icon-triangle.svg" alt="triangle" href="#">
-            </div>
-            <div class="social-network">
-                <img width="20" class="social-network_item" src="img/icon-facebook.svg" alt="Facebook icon"
-                    href="https://www.facebook.com/">
-                <img width="20" class="social-network_item" src="img/icon-instagram.svg" alt="Instagram icon"
-                    href="https://www.instagram.com/">
-                <img width="20" class="social-network_item" src="img/icon-youtube.svg" alt="YouTube icon"
-                    href="https://www.youtube.com/">
+            <div class="header__container">
+                <div class="header__tel">
+                    <a href="tel:+12345678910">+123(456)78910</a>
+                </div>
+                <div class="header__language-block">
+                    <div class="header__language language">
+                        <img class="language__flag" src="img/flag-uk.png" alt="Flag UK">
+                        <p class="language_name">EN</p>
+                        <img class="language__triangle" src="img/icon-triangle.svg" alt="triangle" href="#">
+                    </div>
+                    <div class="header__social">
+                        <img class="social__item" src="img/icon-facebook.svg" alt="Facebook icon"
+                            href="https://www.facebook.com/">
+                        <img class="social__item" src="img/icon-instagram.svg" alt="Instagram icon"
+                            href="https://www.instagram.com/">
+                        <img class="social__item" src="img/icon-youtube.svg" alt="YouTube icon"
+                            href="https://www.youtube.com/">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="header__logo-menu">
-            <div class="header__logo">
-                <img width="170" src="img/logo-insta-trip.png" alt="Logo Insta.Trip">
+            <div class="header__container">
+                <div class="header__logo">
+                    <img src="img/logo-insta-trip.png" alt="Logo Insta.Trip">
+                </div>
+                <nav class="header__menu">
+                    <a href="#aboutus" class="header__menu-item">About us</a>
+                    <a href="#tours" class="header__menu-item">Tours</a>
+                    <a href="#feedback" class="header__menu-item">Testimonials</a>
+                    <a href="#contact" class="header__menu-item">Contact</a>
+                </nav>
             </div>
-            <nav class="header__menu">
-                <a href="#aboutus" class="header__menu-item">About us</a>
-                <a href="#tours" class="header__menu-item">Tours</a>
-                <a href="#feedback" class="header__menu-item">Testimonials</a>
-                <a href="#contact" class="header__menu-item">Contact</a>
-            </nav>
         </div>
     </header>
     <main>
@@ -53,11 +59,15 @@
             </div>
         </section>
         <section class="popular-trip">
-            <h2 class="popular-trip__title">Only the Most Beautiful Places<span class="red-text">.</span></h2>
-            <p class="popular-trip__text">The world is so big and is waiting for you to see it! During our tours, you
-                will visit the most beautiful
-                places and will be able to take photos and videos that will blow your Instagram! Each of our tours is
-                carefully designed. In addition, a professional photographer travels with each group.</p>
+            <div class="popular-trip__conteiner">
+                <h2 class="popular-trip__title">Only the Most Beautiful Places<span class="red-text">.</span></h2>
+                <p class="popular-trip__text">The world is so big and is waiting for you to see it! During our tours,
+                    you
+                    will visit the most beautiful
+                    places and will be able to take photos and videos that will blow your Instagram! Each of our tours
+                    is
+                    carefully designed. In addition, a professional photographer travels with each group.</p>
+            </div>
             <div class="popular-trip__carousel carousel">
                 <button class="carousel__btn_left"><img src="img/icon-arrow-left.svg" alt="Arrow left"></button>
                 <div class="carousel__slide-container">
@@ -81,14 +91,14 @@
                         <h3>Freedom-loving Europe</h3>
                         <p>from $350</p>
                     </article>
-
                 </div>
                 <button class="carousel__btn_right"><img src="img/icon-arrow-right.svg" alt="Arrow right"></button>
             </div>
         </section>
         <section id="aboutus" class="aboutus">
             <div class="aboutus__info">
-                <h2 class="aboutus__title">The Best <span class="red-text">Instagrammable</span> Places and Guided Tours.</h2>
+                <h2 class="aboutus__title">The Best <span class="red-text">Instagrammable</span> Places and Guided
+                    Tours.</h2>
                 <p class="aboutus__text">There are thousands of stunning places in the world, and you can visit all of
                     them! Many of them have
                     already turned into real places of pilgrimage for fans of striking Instagram photos. Don't miss your

@@ -1,0 +1,46 @@
+.popular-trip__conteiner {
+  padding-top: 90px;
+  padding-bottom: 50px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.popular-trip h2 {
+  max-width: 100%;
+  font-size: 34px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  line-height: 40.8px;
+}
+
+.popular-trip p {
+  margin-top: 50px;
+  max-width: 100%;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(112, 112, 112);
+  justify-content: flex-start;
+}
+
+@media (min-width: 770px) {
+  .popular-trip__conteiner {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    padding-left: 24px;
+    padding-right: 24px;
+    flex-wrap: nowrap;
+  }
+
+  .popular-trip h2 {
+    font-size: 38px;
+  }
+  .popular-trip p {
+    padding-left: 200px;
+    margin-top: 0;
+  }
+}
