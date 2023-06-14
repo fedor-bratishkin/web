@@ -31,6 +31,17 @@
   justify-content: flex-start;
 }
 
+.swiper-slide img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.swiper-slide p{
+  margin-top:0;
+}
+
+
+
 @media (min-width: 770px) {
   .popular-trip__conteiner {
     padding-top: 90px;
@@ -48,4 +59,5 @@
   .popular-trip p {
     margin-top: 0;
   }
+ 
 }

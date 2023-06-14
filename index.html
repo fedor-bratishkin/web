@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insta.Trip</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link href="css/index.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon/favicon-32x32.png" type="image/x-icon">
 </head>
@@ -68,60 +69,94 @@
                     is
                     carefully designed. In addition, a professional photographer travels with each group.</p>
             </div>
-            <div class="popular-trip__carousel carousel">
-                <button class="carousel__btn_left"><img src="img/icon-arrow-left.svg" alt="Arrow left"></button>
-                <div class="carousel__slide-container">
-                    <article class="carousel_slide">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
                         <img width="300" src="img/chicago.jpeg" alt="Museum of Science and Industry, Chicago">
                         <h3>Freedom-loving Europe</h3>
                         <p>from $350</p>
-                    </article>
-                    <article class="carousel_slide">
+                    </div>
+                    <div class="swiper-slide">
                         <img width="300" src="img/venice.jpeg" alt="Grand Canal, Venice">
                         <h3>Freedom-loving Europe</h3>
                         <p>from $350</p>
-                    </article>
-                    <article class="carousel_slide">
+                    </div>
+                    <div class="swiper-slide">
                         <img width="300" src="img/sydney.jpeg" alt="Sydney Opera House">
                         <h3>Freedom-loving Europe</h3>
                         <p>from $350</p>
-                    </article>
-                    <article class="carousel_slide">
+                    </div>
+                    <div class="swiper-slide">
                         <img width="300" src="img/disneyland.jpeg" alt="Cinderella Castle, DisneyLand">
                         <h3>Freedom-loving Europe</h3>
                         <p>from $350</p>
-                    </article>
+                    </div>
                 </div>
-                <button class="carousel__btn_right"><img src="img/icon-arrow-right.svg" alt="Arrow right"></button>
+                <div class="swiper-pagination"></div>
             </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 2,
+                    spaceBetween: 30,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
         </section>
         <section id="aboutus" class="aboutus">
-            <div class="aboutus__info">
-                <h2 class="aboutus__title">The Best <span class="red-text">Instagrammable</span> Places and Guided
-                    Tours.</h2>
-                <p class="aboutus__text">There are thousands of stunning places in the world, and you can visit all of
-                    them! Many of them have
-                    already turned into real places of pilgrimage for fans of striking Instagram photos. Don't miss your
-                    chance to visit a cool place and have amazing photos on your Instagram!</p>
-                <p class="aboutus__text">Our company offers tours to the most picturesque places on our planet. Visit
-                    the coolest countries,
-                    take hundreds or even thousands of photos for your Instagram! We will be happy to help you with
-                    this.</p>
-                <div class="aboutus__experience">
-                    <img width="40" src="img/icon-tours.svg" alt="world">
-                    <h3>50+ tours</h3>
-                    <p>Our company regularly organizes tours. You can see landmarks all over the world. Just choose the
-                        countries you like the most.</p>
+            <div class="aboutus__container">
+                <div class="aboutus__info">
+                    <h2>The Best <span class="red-text">Instagrammable</span> Places and Guided
+                        Tours.</h2>
+                    <p>There are thousands of stunning places in the world, and you can visit all
+                        of
+                        them! Many of them have
+                        already turned into real places of pilgrimage for fans of striking Instagram photos. Don't miss
+                        your
+                        chance to visit a cool place and have amazing photos on your Instagram!</p>
+                    <p>Our company offers tours to the most picturesque places on our planet.
+                        Visit
+                        the coolest countries,
+                        take hundreds or even thousands of photos for your Instagram! We will be happy to help you with
+                        this.</p>
+                    <ul>
+                        <li>
+                            <div class="aboutus__experience">
+                                <div class="circle__background">
+                                    <img src="img/tours.svg" alt="world">
+                                </div>
+                                <div class="aboutus__text">
+                                    <h3>50+ tours</h3>
+                                    <p>Our company regularly organizes tours. You can see landmarks all over the world.
+                                        Just
+                                        choose
+                                        the
+                                        countries you like the most.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="aboutus__experience">
+                                <div class="circle__background">
+                                    <img src="img/man.svg" alt="Guides">
+                                </div>
+                                <div class="aboutus__text">
+                                    <h3>Experienced guides</h3>
+                                    <p>The specialists of our company will organize an unforgettable trip and tell you a
+                                        lot
+                                        of
+                                        interesting things!</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="aboutus__experience">
-                    <img width="40" src="img/icon-guides.svg" alt="Guides">
-                    <h3>Experienced guides</h3>
-                    <p>The specialists of our company will organize an unforgettable trip and tell you a lot of
-                        interesting things!</p>
+                <div class="aboutus__image">
+                    <img src="img/aboutus.png" alt="Сouple travelers">
                 </div>
-            </div>
-            <div class="aboutus__image">
-                <img src="img/aboutus.png" alt="Сouple travelers">
             </div>
         </section>
         <section class="steps">

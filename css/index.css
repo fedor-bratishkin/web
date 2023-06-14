@@ -2,20 +2,9 @@
 @import "./header.css";
 @import "./cover.css";
 @import "./popular-trips.css";
+@import "./aboutus.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
-
-
-.steps {
-    background: linear-gradient(90deg, #ff3c42 0%, #ff573c 100%);
-    padding: 0;
-    width: 100%;
-    border: 0;
-}
-
-.video {
-    background: linear-gradient(90deg, #ff3c42 0%, #ff573c 100%);
-}
 
 .footer-menu {
     position: absolute;
