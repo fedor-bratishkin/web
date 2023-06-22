@@ -4,18 +4,8 @@
 @import "./popular-trips.css";
 @import "./aboutus.css";
 @import "./steps.css";
+@import "./photographer";
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 
-.footer-menu {
-    position: absolute;
-    bottom: 50px;
-    right: 100px;
-}
-
-.footer-menu ul li {
-    list-style-type: none;
-    float: left;
-    margin: 0 40px;
-    /*расстояние между пунктами по ширине*/
-}

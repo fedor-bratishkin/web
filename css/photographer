@@ -1,0 +1,17 @@
+.photographer__carousel carousel{
+    padding-top: 60px;
+    padding-bottom: 90px;
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.carousel__card h2{
+    max-width: 100%;
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    line-height: 40.8px;
+    color: rgb(63, 54, 49);
+}
