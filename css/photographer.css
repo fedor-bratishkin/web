@@ -66,3 +66,26 @@
     display: flex;
     flex-direction: column;
 }
+
+@media (min-width: 770px) {
+    .carousel__card {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: grid;
+        height: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .photographer__carousel{
+        height: 100%;
+    }
+
+    .carousel__card img{ 
+        height:100%;
+        object-fit: cover;
+    }
+    .photographer{
+        height: 100vh;
+    }
+}
