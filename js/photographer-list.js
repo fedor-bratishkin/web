@@ -15,7 +15,7 @@ function renderSlides(photographers) {
     const slideContent = `
       <div class="carousel__slide-content">
         <img class="photographer-photo" src="${photographer.photo}" alt="${photographer.name}">
-        <div>
+        <div class="photographer-info">
           <h2>${photographer.name}<span class="red-text">.</span></h2>
           <p>${photographer.info}</p>
           <p>${photographer.add_info}</p>

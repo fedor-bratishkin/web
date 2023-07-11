@@ -2,6 +2,23 @@
   position: relative;
 }
 
+.carousel h2 {
+  max-width: 100%;
+  font-size: 34px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  line-height: 40.8px;
+}
+
+.carousel__slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+}
+
+.carousel__slide-content h2 {
+  margin-top: 0;
+}
+
 .carousel__container {
   display: flex;
   justify-content: space-between;
@@ -11,8 +28,8 @@
 .carousel__prev-button,
 .carousel__next-button {
   padding: 10px;
-  background-color: #f98250;
-  color: #fff;
+  background-color: #ffffff;
+  color: #0a0a0a;
   font-size: 24px;
   cursor: pointer;
 }
@@ -23,72 +40,35 @@
   scroll-snap-type: x mandatory;
 }
 
-.carousel__slide {
-  flex: 0 0 100%;
-  scroll-snap-align: start;
+.photographer-info{
+  padding: 60px;
+
 }
 
 .carousel__slide-content {
-  padding: 20px;
+  padding-top: 20px;
   border-radius: 10px;
-  text-align: center;
+  text-align: left;
 }
 
-.carousel__slide-content h2 {
-  margin-top: 0;
-}
 
 .carousel__slide-content p {
   margin-bottom: 0;
 }
 
-.carousel {
-    position: relative;
-  }
-  
-  .carousel__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .carousel__prev-button,
-  .carousel__next-button {
-    padding: 10px;
-    background-color: #f98250;
-    color: #fff;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .carousel__slides {
-    display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-  }
-  
-  .carousel__slide {
-    flex: 0 0 100%;
-    scroll-snap-align: start;
-  }
-  
-  .carousel__slide-content {
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-  }
-  
-  .carousel__slide-content h2 {
-    margin-top: 0;
-  }
-  
-  .carousel__slide-content p {
-    margin-bottom: 0;
-  }
-  .carousel__slide.active {
-    display: block;
-  }
+.carousel__slide.active {
+  display: block;
+}
 
-  .social__item{
-    height: 30px;
+.social__item {
+  height: 30px;
+}
+
+@media (min-width: 770px) {
+  .carousel__slide-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 100px 24px;
   }
+}
