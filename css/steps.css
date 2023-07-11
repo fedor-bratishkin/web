@@ -1,4 +1,4 @@
-.steps{
+.steps {
     background-image: url("../img/background_steps.png");
     background-position-x: 50%, 0%;
     background-position-y: 50%, 0%;
@@ -6,54 +6,99 @@
 }
 
 .steps__container {
-    padding-top: 90px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 90px 24px;
     max-width: 1200px;
     margin: auto;
-    
+
 }
 
-.steps h2{
+
+.steps h2 {
     max-width: 100%;
     font-size: 34px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     line-height: 40.8px;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
-.steps p{
-    margin-top: 25px;
+
+.steps__title p {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
-    color:rgb(255, 255, 255);
-    line-height: 27.2px
+    color: rgb(255, 255, 255);
+    line-height: 27.2px;
+    margin-top: 50px;
 }
 
-.steps__title img{
+.steps__title img {
     width: 20px;
-   
+
 }
-.steps__list{
+
+.steps__list {
     padding-top: 20px;
 }
 
 
-.steps__list li{
+.steps__list li {
     display: flex;
     align-items: center;
+
 }
 
-.steps__list p{
-    margin-top: 0;
+.steps__list p {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-style: normal;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     line-height: 27.2px;
     padding-left: 10px;
+    margin-top: 0;
 }
 
+
+.steps__count {
+    margin-top: 50px;
+}
+
+.steps__count ul {
+    list-style-type: none;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+.steps__count li {
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+
+.steps__count h3 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 900;
+
+}
+
+.steps__count p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 27.2px;
+    font-weight: 400;
+}
+
+@media (min-width: 770px) {
+    .steps__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 100px;
+        padding: 100px 24px;
+    }
+    .steps__count {
+        margin-top: 0;
+    }
+}

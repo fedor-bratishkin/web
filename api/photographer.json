@@ -1,0 +1,32 @@
+[
+    {
+       "id":"1",
+       "photo":"img/photographer_alex.jpeg",
+       "name":"Alexandro Rossa",
+       "info":"Alexandro is a true fan of his craft. He is a photographer with extensive experience in travel photography and a great guide. Even professional geographers can envy his knowledge of world landmarks and the best bars in every city",
+       "add_info":"His favorite countries are Italy and Greece. Alexandro loves historical sites and is fond of ancient history.",
+       "facebook":"https://www.facebook.com/",
+       "instagram":"https://www.instagram.com/",
+       "youtube":"https://www.youtube.com/"
+    },
+    {
+       "id":"2",
+       "photo":"img/photographer_Monika.jpeg",
+       "name":"Melissa Sol",
+       "info":"Melissa just loves to travel to different countries! Since childhood, she dreamed of seeing all the most interesting corners of our planet. Her dream has come true, and now she gives joy to everyone and captures the most beautiful moments.",
+       "add_info":"Melissa loves Latin America. Jungle and mountains are the main passion of this photographer.",
+       "facebook":"https://www.facebook.com/",
+       "instagram":"https://www.instagram.com/",
+       "youtube":"https://www.youtube.com/"
+    },
+    {
+       "id":"3",
+       "photo":"img/photographer_Alica.jpeg",
+       "name":"ALicia Keish",
+       "info":"Alicia started her career as an ordinary photographer but decided to combine her work with a hobby, and now she accompanies tourists, showing the best instagrammable places. She knows how to make a stunning shot even where it is impossible!",
+       "add_info":"Her favorite city is Venice. Gondolas, cute Italian restaurants, and stunning sunsets - Alicia won\\'t miss all this!",
+       "facebook":"https://www.facebook.com/",
+       "instagram":"https://www.instagram.com/",
+       "youtube":"https://www.youtube.com/"
+    }
+ ]
